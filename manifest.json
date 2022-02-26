@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "空白简约新标签页",
+	"version": "1.0",
+	"description": "空白简约新标签页",
+	"icons": {
+		"16": "img/default-icon-16.png",
+		"64": "img/default-icon-64.png"
+	},
+	"browser_action": {
+		"default_icon": "img/default-icon-16.png",
+		"default_title": "空白简约新标签页",
+		"default_popup": "popup.html"
+	},
+	"chrome_url_overrides": {
+		"newtab": "index.html"
+	}
+}
